@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  share_token: MyString
+  hose_token: MyString
+  choices: MyString
+  created: 2026-01-26 12:17:55
+  show_results: false
+  closed: 2026-01-26 12:17:55
+  electoral_system: MyString
+
+two:
+  name: MyString
+  share_token: MyString
+  hose_token: MyString
+  choices: MyString
+  created: 2026-01-26 12:17:55
+  show_results: false
+  closed: 2026-01-26 12:17:55
+  electoral_system: MyString

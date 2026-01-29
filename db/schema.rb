@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_01_26_210850) do
+ActiveRecord::Schema[8.1].define(version: 2026_01_28_050545) do
   create_table "ballots", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.integer "event_id", null: false
@@ -24,7 +24,7 @@ ActiveRecord::Schema[8.1].define(version: 2026_01_26_210850) do
   end
 
   create_table "events", force: :cascade do |t|
-    t.string "choices"
+    t.text "choices"
     t.datetime "closed"
     t.datetime "created_at", null: false
     t.string "electoral_system"

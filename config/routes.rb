@@ -7,4 +7,9 @@ Rails.application.routes.draw do
 
   # API Info
   get "/api/version", to: "info#version"
+
+  # Events
+  post "/api/vote/event/create", to: "events#create"
+  get "/api/vote/event/:id", to: "events#show"
+  patch "/api/vote/event/:id/update", to: "events#update"
 end

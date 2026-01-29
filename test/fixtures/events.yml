@@ -2,20 +2,18 @@
 
 one:
   name: MyString
-  share_token: MyString
-  hose_token: MyString
-  choices: MyString
-  created: 2026-01-26 12:17:55
+  share_token: fake_share_token
+  host_token: fake_host_token
+  choices: ["Beef", "Chicken", "Cheddar"]
   show_results: false
   closed: 2026-01-26 12:17:55
   electoral_system: MyString
 
 two:
   name: MyString
-  share_token: MyString
-  hose_token: MyString
-  choices: MyString
-  created: 2026-01-26 12:17:55
+  share_token: fake_share_token
+  host_token: fake_host_token
+  choices: ["Carrot", "Tomato", "Onion"]
   show_results: false
   closed: 2026-01-26 12:17:55
   electoral_system: MyString

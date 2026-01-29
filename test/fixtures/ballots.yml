@@ -3,13 +3,13 @@
 one:
   token: MyString
   voter_name: MyString
-  created: 2026-01-26 12:27:36
   vote: MyString
   submitted: 2026-01-26 12:27:36
+  event: one
 
 two:
   token: MyString
   voter_name: MyString
-  created: 2026-01-26 12:27:36
   vote: MyString
   submitted: 2026-01-26 12:27:36
+  event: two

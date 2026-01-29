@@ -12,4 +12,10 @@ Rails.application.routes.draw do
   post "/api/vote/event/create", to: "events#create"
   get "/api/vote/event/:id", to: "events#show"
   patch "/api/vote/event/:id/update", to: "events#update"
+
+  # Ballot
+  get "/api/vote/event/:event_id/ballots", to: "ballots#index"
+  post "/api/vote/event/:event_id/create", to: "ballots#create"
+  post "/api/vote/ballot/:ballot_id/submit", to: "ballots#submit"
+  get "/api/vote/ballot/:id", to: "ballots#show"
 end

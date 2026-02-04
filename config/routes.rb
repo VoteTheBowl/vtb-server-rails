@@ -18,7 +18,7 @@ Rails.application.routes.draw do
 
   # Ballot
   get "/api/vote/event/:event_id/ballots", to: "ballots#index"
-  post "/api/vote/event/:event_id/create", to: "ballots#create"
-  post "/api/vote/ballot/:ballot_id/submit", to: "ballots#submit"
+  post "/api/vote/event/:event_id/create-ballot", to: "ballots#create"
+  post "/api/vote/ballot/:id/submit", to: "ballots#submit"
   get "/api/vote/ballot/:id", to: "ballots#show"
 end

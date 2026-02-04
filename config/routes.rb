@@ -11,7 +11,10 @@ Rails.application.routes.draw do
   # Events
   post "/api/vote/event/create", to: "events#create"
   get "/api/vote/event/:id", to: "events#show"
-  patch "/api/vote/event/:id/update", to: "events#update"
+  post "/api/vote/event/:id/close", to: "events#close"
+  post "/api/vote/event/:id/open", to: "events#open"
+  post "/api/vote/event/:id/show-results", to: "events#show_results"
+  post "/api/vote/event/:id/hide-results", to: "events#hide_results"
 
   # Ballot
   get "/api/vote/event/:event_id/ballots", to: "ballots#index"
